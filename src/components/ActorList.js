@@ -9,6 +9,7 @@ const ActorList = (props) => {
 	return(
 		<div className='list'>
 	    <h2>Game of Thrones</h2>
+	    <h3>Number</h3>
 	    <ul borrar={props.onDeleteList}>
 	    	<button onClick={(e) => eliminar(e)}>Eliminar</button>
 	      {props.series.map((actor, i) =>
